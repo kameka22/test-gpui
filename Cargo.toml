@@ -1,0 +1,15 @@
+[package]
+name = "longbridge-desktop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gpui = { git = "https://github.com/zed-industries/zed" }
+log = "0.4"
+simplelog = "0.12"
+rand = "0.8"
+chrono = "0.4"
+
+[[bin]]
+name = "longbridge"
+path = "src/main.rs"
