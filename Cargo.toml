@@ -13,3 +13,36 @@ chrono = "0.4"
 [[bin]]
 name = "longbridge"
 path = "src/main.rs"
+
+# GPUI Examples
+[[example]]
+name = "hello_world"
+path = "examples/hello_world.rs"
+
+[[example]]
+name = "drag_drop"
+path = "examples/drag_drop.rs"
+
+[[example]]
+name = "gradient"
+path = "examples/gradient.rs"
+
+[[example]]
+name = "grid_layout"
+path = "examples/grid_layout.rs"
+
+[[example]]
+name = "pattern"
+path = "examples/pattern.rs"
+
+[[example]]
+name = "scrollable"
+path = "examples/scrollable.rs"
+
+[[example]]
+name = "uniform_list"
+path = "examples/uniform_list.rs"
+
+[[example]]
+name = "text_wrapper"
+path = "examples/text_wrapper.rs"
